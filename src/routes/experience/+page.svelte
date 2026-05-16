@@ -133,8 +133,8 @@
 							<span class="text-lg font-medium">Want the full picture?</span>
 						</div>
 						<a
-							href="/resume.pdf"
-							download
+							href="/Harshil_HK_CV.pdf"
+							download="Harshil_HK_CV.pdf"
 							class="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-lg font-medium hover:bg-accent-glow transition-colors"
 						>
 							Download Resume

@@ -126,7 +126,7 @@
 				<Button href="/projects" variant="primary" size="lg">
 					View My Work
 				</Button>
-				<Button href="/contact" variant="secondary" size="lg">
+				<Button href="/Harshil_HK_CV.pdf" download="Harshil_HK_CV.pdf" variant="secondary" size="lg">
 					<Download size={18} />
 					Download CV
 				</Button>

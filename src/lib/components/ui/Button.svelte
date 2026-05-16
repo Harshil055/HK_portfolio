@@ -7,6 +7,7 @@
 	export let icon = false;
 	export let disabled = false;
 	export let type = 'button';
+	export let download = null;
 
 	const baseStyles = 'inline-flex items-center justify-center gap-2 font-medium rounded-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed';
 
@@ -27,7 +28,7 @@
 </script>
 
 {#if href}
-	<a {href} class={classes} class:disabled>
+	<a {href} {download} class={classes} class:disabled>
 		<slot />
 		{#if icon}
 			<ArrowRight size={16} class="transition-transform group-hover:translate-x-1" />

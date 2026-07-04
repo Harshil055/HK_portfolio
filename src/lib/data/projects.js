@@ -1,22 +1,11 @@
 export const projects = [
 	{
-		id: 1,
-		title: 'DarkPearl',
-		description: 'AI-powered self-hosted app builder. Transform ideas into production-ready web apps using natural language or UI screenshots. Features live preview, GitHub integration, and one-click deployment.',
-		image: '/images/projects/darkpearl.jpg',
-		technologies: ['Svelte', 'AI/ML', 'CodeMirror', 'GitHub API', 'Node.js'],
-		liveUrl: 'https://darkpearl.evolune.in',
-		githubUrl: '',
-		featured: true,
-		category: 'Full Stack'
-	},
-	{
 		id: 2,
-		title: 'FluxTest (Evo-TFX)',
+		title: 'Flasqo',
 		description: 'Advanced testing framework for modern applications. Streamline your testing workflow with automated test generation, real-time reporting, and comprehensive test coverage analysis.',
 		image: '/images/projects/fluxtest.jpg',
 		technologies: ['TypeScript', 'Testing', 'CI/CD', 'Automation'],
-		liveUrl: 'https://fluxtest.evolune.in',
+		liveUrl: 'http://flasqo.com/',
 		githubUrl: '',
 		featured: true,
 		category: 'Full Stack'

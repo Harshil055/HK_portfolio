@@ -7,7 +7,8 @@
       "Bash(timeout 8 npm run dev -- --host)",
       "WebFetch(domain:www.linkedin.com)",
       "WebFetch(domain:fluxtest.evolune.in)",
-      "WebFetch(domain:darkpearl.evolune.in)"
+      "WebFetch(domain:darkpearl.evolune.in)",
+      "Bash(Copy-Item -Path \"E:\\\\Evolune_Products\\\\HK-Portfolio\\\\Harshil_HK.pdf\" -Destination \"E:\\\\Evolune_Products\\\\HK-Portfolio\\\\static\\\\Harshil_HK_CV.pdf\" -Force)"
     ]
   }
 }

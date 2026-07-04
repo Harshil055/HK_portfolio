@@ -10,7 +10,7 @@ export const experiences = [
 	},
 	{
 		id: 2,
-		title: 'Product Development Engineer',
+		title: 'Founding Engineer',
 		company: 'Evolune EdgeTech',
 		location: 'India',
 		duration: 'Jan 2025 - Jun 2025',

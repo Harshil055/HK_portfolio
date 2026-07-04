@@ -5,6 +5,18 @@
 
 	let isExpanded = false;
 	let mobileOpen = false;
+	let collapseTimer;
+
+	function handleMouseEnter() {
+		clearTimeout(collapseTimer);
+		isExpanded = true;
+	}
+
+	function handleMouseLeave() {
+		collapseTimer = setTimeout(() => {
+			isExpanded = false;
+		}, 30000);
+	}
 
 	const navLinks = [
 		{ href: '/', label: 'Home' },
@@ -28,8 +40,8 @@
 			height: {isExpanded ? '50px' : '36px'};
 			transition: width 0.6s cubic-bezier(0.32,0.72,0,1), height 0.5s cubic-bezier(0.32,0.72,0,1);
 		"
-		on:mouseenter={() => (isExpanded = true)}
-		on:mouseleave={() => (isExpanded = false)}
+		on:mouseenter={handleMouseEnter}
+		on:mouseleave={handleMouseLeave}
 	>
 		<!-- Collapsed State -->
 		{#if !isExpanded}
